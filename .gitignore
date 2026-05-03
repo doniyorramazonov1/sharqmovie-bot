@@ -3,3 +3,5 @@ node_modules
 npm-debug.log
 data.db
 uploads
+__pycache__/
+*.pyc
