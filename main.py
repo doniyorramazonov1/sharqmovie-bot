@@ -16,7 +16,7 @@ def run_flask():
     app.run(host="0.0.0.0", port=PORT)
 
 async def main():
-    db.init_tables()
+    db.init_db()
     dp = Dispatcher()
     dp.include_router(router)
     bot = Bot(token=BOT_TOKEN)
